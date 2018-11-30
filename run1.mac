@@ -1,0 +1,4 @@
+/run/beamOn 10
+/gun/energy 200 MeV
+/gun/particle proton
+/run/beamOn 10
