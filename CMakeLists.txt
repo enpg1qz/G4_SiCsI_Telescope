@@ -57,6 +57,7 @@ endforeach()
 
 #复制data文件夹
 file(GLOB datas ${PROJECT_SOURCE_DIR}/data/*.dat)
+file(GLOB datas ${PROJECT_SOURCE_DIR}/data/*.C)
 #file(MAKE_DIRECTORY [directory1 directory2 ...])
 file(COPY ${datas} DESTINATION ${PROJECT_BINARY_DIR}/data)
 
